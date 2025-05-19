@@ -7,34 +7,42 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: "Liquidity Aggregator",
-      description: "Built a sophisticated liquidity aggregator on Solana and Aptos that sources optimal trading routes across multiple DEXs, ensuring best execution prices and minimal slippage for traders.",
+      description: "Built a liquidity aggregator on Solana and Aptos that sources optimal trading routes across multiple DEXs, ensuring best execution prices and minimal slippage for traders.",
       tags: ["Solana", "Aptos", "DeFi", "TypeScript", "Rust", "Move"],
-      link: "#",
-      repo: "#"
+      link: "https://app.kanalabs.io/swap",
+      repo: "https://github.com/kanalabs"
     },
     {
       id: 2,
       title: "Cross-chain Liquidity Aggregator",
-      description: "Developed a cross-chain liquidity aggregator enabling seamless asset transfers and trading between Solana, Aptos, and Sui networks, with built-in price optimization and security measures.",
-      tags: ["Cross-chain", "DeFi", "Solana", "Aptos", "Sui", "Smart Contracts"],
-      link: "#",
-      repo: "#"
+      description: "Developed a cross-chain liquidity aggregator enabling seamless asset transfers and trading between Solana, Aptos, and Sui networks, with built-in price optimization.",
+      tags: ["Cross-chain", "DeFi", "Solana", "Aptos", "Sui",],
+      link: "https://app.kanalabs.io/swap",
+      repo: "https://github.com/kanalabs"
     },
     {
       id: 3,
       title: "Trident RPC Load Balancer",
       description: "Engineered a high-performance RPC load balancer for Aptos network, ensuring optimal distribution of requests and enhanced reliability for blockchain operations.",
       tags: ["Aptos", "RPC", "Load Balancing", "Infrastructure", "TypeScript"],
-      link: "#",
-      repo: "#"
+      link: "https://github.com/kanalabs/trident",
+      repo: "https://github.com/kanalabs/trident"
     },
     {
       id: 4,
       title: "KanaLabs Core Infrastructure",
       description: "Contributed to core infrastructure development at KanaLabs, implementing critical blockchain integrations and maintaining high-availability systems.",
       tags: ["Blockchain", "Infrastructure", "DeFi", "DevOps"],
-      link: "#",
-      repo: "#"
+      link: "app.kanalabs.io",
+      repo: "https://github.com/kanalabs"
+    },
+    {
+      id: 5,
+      title: "Qport",
+      description: "Contributed to the initial development of Qport infrastructure by building a peer-to-peer (P2P) solution.",
+      tags: ["p2p", "Infrastructure", "iroh", "libmdbx"],
+      link: "app.kanalabs.io",
+      repo: "https://github.com/kanalabs"
     }
   ];
 

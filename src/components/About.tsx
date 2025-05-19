@@ -20,20 +20,16 @@ const About: React.FC = () => {
           
           <div className="w-full md:w-2/3">
             <p className="text-gray-600 mb-6 text-lg">
-              With over 4 years of experience in blockchain technology, I've established myself as a 
-              seasoned backend engineer specializing in cross-chain solutions and decentralized systems.
-              My expertise spans multiple blockchain platforms including Solana, Aptos, and Sui.
+             I'm a backend engineer with a strong passion for building robust and scalable infrastructure. With experience in blockchain technologies, I focus on designing and developing backend systems, peer-to-peer (P2P) solutions, and cross-chain protocols.
             </p>
             
             <p className="text-gray-600 mb-6 text-lg">
-              As a founding engineer at KanaLabs, I've contributed to groundbreaking blockchain applications,
-              including a sophisticated liquidity aggregator on Aptos. My technical stack includes TypeScript
-              for backend development, Rust for Solana development, and Move for Aptos and Sui platforms.
+             As a founding engineer at Kana Labs, I played a key role in architecting core systems and delivering high-performance backend services. My work spans across DeFi, where I’ve built liquidity aggregators, trading applications, and seamless cross-chain experiences that power real-world decentralized finance products.
             </p>
             
             <p className="text-gray-600 mb-8 text-lg">
-              I combine my blockchain expertise with strong DevOps knowledge, ensuring robust deployment
-              and operational excellence for all projects I handle.
+             I thrive at the intersection of systems engineering and blockchain innovation—solving hard problems and creating tools that make decentralized applications faster, more secure, and developer-friendly.
+
             </p>
             
             <div className="flex flex-wrap gap-4">

@@ -8,25 +8,25 @@ const Skills: React.FC = () => {
       id: 1,
       title: "Programming Languages",
       icon: <Code2 className="w-6 h-6 text-blue-500 mb-2" />,
-      skills: ["TypeScript", "Rust", "Move"]
+      skills: ["Node.js", "TypeScript", "Rust", "Move"]
     },
     {
       id: 2,
       title: "Blockchain Development",
       icon: <Binary className="w-6 h-6 text-blue-500 mb-2" />,
-      skills: ["Solana", "Aptos", "Sui", "Smart Contracts", "Web3.js", "Cross-chain Solutions"]
+      skills: ["Solana", "Aptos", "Sui", "Smart Contracts", "Offchain Solution"]
     },
     {
       id: 3,
       title: "Backend Development",
       icon: <Server className="w-6 h-6 text-blue-500 mb-2" />,
-      skills: ["Node.js", "Express", "GraphQL", "REST APIs", "Database Design", "Microservices"]
+      skills: ["API", "gRPC", "P2P", "Microservices", "Backend Servers"]
     },
     {
       id: 4,
       title: "DevOps & Tools",
       icon: <Cog className="w-6 h-6 text-blue-500 mb-2" />,
-      skills: ["Docker", "CI/CD", "Kubernetes", "AWS", "System Design", "Version Control"]
+      skills: ["Docker", "CI/CD", "AWS"]
     }
   ];
 
@@ -51,4 +51,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export default Skills
+export default Skills;
